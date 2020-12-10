@@ -30,18 +30,23 @@
 		    <div class="col-md-6 mb-3">
 		      <input type="text" name="email" placeholder="E-mail" required>
 		      <div class="invalid-tooltip">
-		        Please provide a valid city.
+		        Please provide a valid Email.
 		      </div>
 		    </div>
 		    <div class="col-md-3 mb-3">
 		      <input type="text" name="uid" placeholder="UserId" required>
 		      <div class="invalid-tooltip">
-		        Please Enter a valid User Name.
+		        Please Enter a valid User ID.
+		      </div>
+		    </div>
+		    <div class="col-md-3 mb-3">
+		      <input type="Password" name="pass" placeholder="Password" required>
+		      <div class="invalid-tooltip">
+		        Please Enter a valid Password.
 		      </div>
 		    </div>
 		  	<button class="btn btn-primary" type="submit" name="signup">SignUp</button>
 		  	<br>
-		  	<a href="admin.php">If You are An Admin Press Here</a>
     </form>
 
  </div>  
